@@ -1,0 +1,11 @@
+#
+# example wordpress sites listed here: https://en.wordpress.com/notable-users/
+
+http://www.nytimes.com/interactive/blogs/directory.html
+http://www.cnn.com/exchange/blogs/index.html
+http://blogs.forbes.com/
+http://blogs.reuters.com/us/
+http://www2.macleans.ca/
+http://fastlane.gmblogs.com/
+http://blog.ups.com/
+http://ebayinkblog.com/
