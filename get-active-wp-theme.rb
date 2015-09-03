@@ -9,9 +9,9 @@ File.read(filename).each_line do|wpsite|
         begin
             doc = Nokogiri::HTML(open(wpsite))
         rescue
-            puts "url could not be opened: #{wpsite}"
+            puts "Url could not be opened: #{wpsite}"
         else
-            puts "url called successfully: #{wpsite}"
+            puts "Url called successfully: #{wpsite}"
             links = doc.xpath("//link[contains(@href, '#{searchstring}')]")
             links.each do |test|
                 theme = test.to_s[/#{searchstring}(.*?)\//, 1]
