@@ -5,7 +5,7 @@ searchstring = "wp-content/themes/"
 filename = "url-list.txt"
 
 File.read(filename).each_line do|wpsite|
-    if wpsite != "" and wpsite[0] != "#" and wpsite[0] != " " and wpsite[0] != "\n"
+    if wpsite[0] != "" and wpsite[0] != "#" and wpsite[0] != " " and wpsite[0] != "\n"
         begin
             doc = Nokogiri::HTML(open(wpsite))
         rescue
